@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: #FDC800;
+    padding:10px;
+}
+.header-flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact {
+    display:flex;
+    align-items: center;
+}
+.contact p {
+    margin:0;
+}
+.contact .fa-envelope {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.contact .fa-map-marker-alt {
+    margin-right: 5px;
+}
+.header-icons i {
+    margin:0 5px;
+}
+.section-1 {
+    background-color: #F0F4F9;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+.section-1-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding:0;
+    margin:0 30px;
+}
+.menu li {
+    color:#002147;
+    font-weight: bold;
+    margin:0 10px;
+}
+.top-right-contents {
+    display:flex;
+}
+.sign-up-btn {
+    border:none;
+    border-radius:4px;
+    background-color:#FDC800;
+    padding:10px 20px;
+    margin-right: 5px;
+}
+.search-btn {
+    border:1px solid #BDBDBD;
+    background-color: #FFF;
+    border-radius: 4px;
+    padding:10px 15px;
+}
+.top-left-contents {
+    display:flex;
+}
+.top-left-contents p {
+    margin:0;
+    color:#002147;
+    font-size:24px;
+    font-weight: lighter;
+    margin:5px 10px;
+}
+.intro {
+    background-color: #F0F4F9;
+    padding: 30px 0;
+}
+.intro-flex {
+    display:flex;
+    justify-content: space-between;
+}
+.intro-text-1 {
+    font-size:30px;
+    font-weight: bold;
+    color:#002147;
+}
+.intro-text-2 {
+    color:#002147;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+.quote {
+    border:none;
+    background-color: #FDC800;
+    border-radius: 4px;
+    padding:10px 30px;
+}
+.read-more {
+    border:1px solid #BDBDBD;
+    border-radius: 4px;
+    padding:10px 30px;
+    background-color: #FFF;
+    margin-left:5px;
+}
+.countdown {
+    padding: 30px 0;
+    background-color: #F0F4F9;
+}
+.countdown-border {
+    background-color: #002147;
+    border-radius: 12px;
+    padding: 25px 30px;
+    border:1px solid #BDBDBD;
+}
+.countdown-flex {  
+    display: flex;
+    align-items: center;
+}
+.dart {
+    margin-left:10px;
+}
+.countdown-text {
+    color:#FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin:0 20px;
+}
+.yellow-text {
+    color:#FDC800;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inside-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inside-countdown {
+    display: flex;
+    align-items: center;
+}
+.double-point {
+    content: ':';
+    color: #fff;
+    display: inline-block;
+    margin:0 20px;
+    font-size:30px;
+}
+.inside-border-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inside-border-flex p {
+    color:#FFF;
+    font-size: 60px;
+    font-weight: bold;
+    margin:0;
+}
+.inside-border-flex h6 {
+    color:#fff;
+    font-size: 14px;
+}
+main {
+    background-color: #fff;
+}
+.main-header {
+    display: flex;
+    justify-content: center;
+    color:#002147;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin:30px 0;
+}
+.main-box {
+    border:1px solid #BDBDBD;
+    border-radius: 6px;
+    margin: 5px;
+}
+.box-title {
+    font-size: 20px;
+    color:#002147;
+    font-weight: bold;
+    margin: 25px 5px;
+}
+.box-info {
+    font-size: 14px;
+    color:#757575;
+    margin-left: 5px;
+}
+.main-flex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pic {
+    position:relative;
+}
+.logo {
+    position:absolute; 
+    margin:16px;
+    border: 8px solid #F0F4F9;
+}
+.img-box {
+    display: flex;
+    align-items: flex-end;
+}
+.section-4 {
+    margin-top: 30px;
+}
+.section-flex {
+    display: flex;
+}
+.feedback-text span {
+    color:#FDC800;
+}
+.feedback-text p {
+    color:#002147;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.courses p {
+    font-weight: bold;
+}
+.orange-box {
+    width:120px;
+    height:120px;
+    border-radius:6px;
+    background-color:#FDC800;
+}
